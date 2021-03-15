@@ -1,0 +1,29 @@
+{
+  "name": "ppk-template",
+  "version": "1.0.0",
+  "description": "Template repository untuk mata kuliah Pemrograman Permainan Komputer",
+  "main": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Namchee/ppk-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Namchee/ppk-template/issues"
+  },
+  "homepage": "https://github.com/Namchee/ppk-template#readme",
+  "dependencies": {
+    "phaser": "^3.53.1",
+    "vite": "^2.0.5"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}
