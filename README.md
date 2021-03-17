@@ -4,9 +4,18 @@ Repositori ini adalah repositori _template_ untuk mempercepat pengembangan perma
 
 ## Memulai
 
-1. Buat repositori baru menggunakan [repositori ini sebagai _template_](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
-2. Jalankan perintah `pnpm install` melalui _terminal_ Anda.
-3. Kerjakan tugasnya lah...
+> Pastikan Anda memiliki `pnpm` di komputer Anda. Apabila tidak, `npm` bisa jadi alternatif.
+
+1. Clone repositori ini.
+2. Jalankan perintah `pnpm install` atau `npm install` melalui _terminal_ Anda.
+3. Kerjakan
+3. Jalankan perintah `pnpm run build` atau `npm run build` untuk membangun kode perangkat lunak.
+
+> Jangan dicopas, kerjain tugasnya sendiri!
+
+### Dosen
+
+Karena projectnya sudah di_build_, cukup jalankan sebuah web server dengan `dist` sebagai root directory. Salah satu cara termudah untuk melakukannya adalah menggunakan `serve` melalui `npx serve dist`
 
 ## Fitur
 
