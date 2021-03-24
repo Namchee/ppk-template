@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "submit": "tar --exclude=node_modules --exclude=*.zip --exclude=*.tar.gz -cvf 2017730017@$npm_package_name.zip ../$npm_package_name"
+    "submit": "npm run build && tar --exclude=node_modules --exclude=*.zip --exclude=*.tar.gz -cvf 2017730017@$npm_package_name.zip ../$npm_package_name"
   },
   "repository": {
     "type": "git",
